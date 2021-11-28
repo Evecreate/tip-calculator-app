@@ -1,0 +1,31 @@
+@use '../util' as *;
+
+.tip-amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: rem(25);
+
+  &__primary,
+  &__secondary {
+    display: block;
+  }
+
+  &__primary {
+    color: var(--white);
+    font-size: rem(16);
+    font-weight: bold;
+  }
+
+  &__secondary {
+    color: var(--ui-dark-03);
+    font-size: rem(13);
+  }
+
+  &__output {
+    color: var(--primary);
+    font-size: rem(48);
+    font-weight: bold;
+    letter-spacing: -1px;
+  }
+}

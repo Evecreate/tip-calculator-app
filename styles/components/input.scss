@@ -1,0 +1,8 @@
+@use '../util' as *;
+
+.input-block {
+  > * {
+    width: 100%;
+    display: block;
+  }
+}

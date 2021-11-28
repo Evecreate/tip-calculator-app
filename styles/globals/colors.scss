@@ -1,0 +1,13 @@
+:root {
+  --primary: hsl(172, 67%, 45%);
+  --ui-dark-01: hsl(183, 100%, 15%);
+  --ui-dark-02: hsl(186, 14%, 43%);
+  --ui-dark-03: hsl(183, 15%, 56%);
+  --ui-light-01: hsl(185, 41%, 84%);
+  --ui-light-02: hsl(189, 41%, 97%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  background: var(--ui-light-01);
+}
