@@ -1,0 +1,30 @@
+@use '../util' as *;
+
+.container {
+  display: block;
+
+  @include breakpoint(medium) {
+    max-width: rem(1440);
+    min-height: calc(100vh - 16px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.wrapper {
+  background: var(--white);
+  padding: rem(32);
+  border-radius: rem(15);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: rem(48);
+}
+
+.section--right {
+  background: var(--ui-dark-01);
+  border-radius: rem(15);
+  padding: rem(40);
+}
